@@ -16,7 +16,7 @@ import org.vectomatic.dom.svg.ui.SVGResource;
 /**
  * The class provides methods to get resources for golang plugin
  *
- * @author Dmitry Shnurenko
+ * @author Eugene Ivantsov
  */
 public interface GolangResources extends ClientBundle {
 

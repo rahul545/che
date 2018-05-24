@@ -10,7 +10,7 @@
  */
 package org.eclipse.che.plugin.golang.shared;
 
-/** @author Dmitry Shnurenko */
+/** @author Eugene Ivantsov */
 public final class Constants {
   /** Language attribute name */
   public static String LANGUAGE = "language";

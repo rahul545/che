@@ -16,7 +16,7 @@ import org.eclipse.che.ide.api.extension.ExtensionGinModule;
 import org.eclipse.che.ide.api.project.type.wizard.ProjectWizardRegistrar;
 import org.eclipse.che.plugin.golang.ide.project.GolangProjectWizardRegistrar;
 
-/** @author Dmitry Shnurenko */
+/** @author Eugene Ivantsov */
 @ExtensionGinModule
 public class GolangGinModule extends AbstractGinModule {
 

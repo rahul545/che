@@ -21,8 +21,7 @@ import org.eclipse.che.plugin.golang.languageserver.GolangLanguageServerConfig;
 import org.eclipse.che.plugin.golang.projecttype.GolangProjectType;
 
 /**
- * @author Alexander Andrienko
- * @author Hanno Kolvenbach
+ * @author Eugene Ivantsov
  */
 @DynaModule
 public class GolangModule extends AbstractModule {

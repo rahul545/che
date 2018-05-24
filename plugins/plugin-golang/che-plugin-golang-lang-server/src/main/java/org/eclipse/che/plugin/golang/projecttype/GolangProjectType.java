@@ -15,7 +15,7 @@ import static org.eclipse.che.plugin.golang.shared.Constants.LANGUAGE;
 
 import org.eclipse.che.api.project.server.type.ProjectTypeDef;
 
-/** @author Dmitry Shnurenko */
+/** @author Eugene Ivantsov */
 public class GolangProjectType extends ProjectTypeDef {
 
   public GolangProjectType() {

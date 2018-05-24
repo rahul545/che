@@ -26,8 +26,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * @author Alexander Andrienko
- * @author Hanno Kolvenbach
+ * @author Eugene Ivantsov
  */
 @Singleton
 public class GolangLanguageServerConfig implements LanguageServerConfig {

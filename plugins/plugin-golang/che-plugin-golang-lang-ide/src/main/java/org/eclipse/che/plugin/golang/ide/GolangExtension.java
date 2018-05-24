@@ -15,7 +15,7 @@ import org.eclipse.che.ide.api.extension.Extension;
 import org.eclipse.che.ide.api.icon.Icon;
 import org.eclipse.che.ide.api.icon.IconRegistry;
 
-/** @author Dmitry Shnurenko */
+/** @author Eugene Ivantsov */
 @Extension(title = "Golang")
 public class GolangExtension {
 
