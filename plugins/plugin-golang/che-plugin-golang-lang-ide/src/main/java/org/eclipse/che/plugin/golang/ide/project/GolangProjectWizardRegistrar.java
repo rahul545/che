@@ -23,7 +23,7 @@ import org.eclipse.che.ide.api.wizard.WizardPage;
 /**
  * Provides information for registering Golang project type into project wizard.
  *
- * @author Dmitry Shnurenko
+ * @author Eugene Ivantsov
  */
 public class GolangProjectWizardRegistrar implements ProjectWizardRegistrar {
 
