@@ -25,9 +25,7 @@ import org.eclipse.che.plugin.golang.inject.GolangModule;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-/**
- * @author Eugene Ivantsov
- */
+/** @author Eugene Ivantsov */
 @Singleton
 public class GolangLanguageServerConfig implements LanguageServerConfig {
   private static final Logger LOG = LoggerFactory.getLogger(GolangLanguageServerConfig.class);

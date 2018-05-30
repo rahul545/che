@@ -20,9 +20,7 @@ import org.eclipse.che.inject.DynaModule;
 import org.eclipse.che.plugin.golang.languageserver.GolangLanguageServerConfig;
 import org.eclipse.che.plugin.golang.projecttype.GolangProjectType;
 
-/**
- * @author Eugene Ivantsov
- */
+/** @author Eugene Ivantsov */
 @DynaModule
 public class GolangModule extends AbstractModule {
   public static final String LANGUAGE_ID = "golang";
