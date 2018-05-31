@@ -318,7 +318,6 @@ public class EditorAgentImpl
         new OpenEditorCallbackImpl() {
           @Override
           public void onEditorOpened(EditorPartPresenter editor) {
-            editorPartStack.addPart(editor);
             editorMultiPartStack.setActivePart(editor);
 
             openedEditors.add(editor);
@@ -345,6 +344,7 @@ public class EditorAgentImpl
 
     editor.init(new EditorInputImpl(fileType, file), initializeCallback);
     finalizeInit(file, editor, editorProvider);
+    editorPartStack.addPart(editor);
   }
 
   private void finalizeInit(
@@ -715,8 +715,6 @@ public class EditorAgentImpl
               new OpenEditorCallbackImpl() {
                 @Override
                 public void onEditorOpened(EditorPartPresenter editor) {
-                  editorPartStack.addPart(editor);
-
                   openedEditors.add(editor);
                   removeFromOpeningFilesList(file.getLocation(), editorPartStack);
 
@@ -744,6 +742,7 @@ public class EditorAgentImpl
 
           editor.init(new EditorInputImpl(fileType, file), initializeCallback);
           finalizeInit(file, editor, editorProvider);
+          editorPartStack.addPart(editor);
         });
   }
 
