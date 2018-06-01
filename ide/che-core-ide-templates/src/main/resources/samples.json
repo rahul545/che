@@ -92,62 +92,6 @@
     ]
   },
   {
-    "name": "blank-project",
-    "displayName": "blank-project",
-    "path": "/blank-project",
-    "description": "A blank project example.",
-    "projectType": "blank",
-    "mixins": [],
-    "attributes": {
-    },
-    "modules": [],
-    "problems": [],
-    "source": {
-      "type": "git",
-      "location": "https://github.com/che-samples/blank",
-      "parameters": {}
-    },
-    "commands": [],
-    "links": [],
-    "category": "Samples",
-    "tags": [
-      "blank"
-    ]
-  },
-  {
-    "name": "c-simple-console",
-    "displayName": "c-simple-console",
-    "path": "/c-simple-console",
-    "description": "A simple Hello World in C.",
-    "projectType": "c",
-    "mixins": [],
-    "attributes": {},
-    "modules": [],
-    "problems": [],
-    "source": {
-      "type": "git",
-      "location": "https://github.com/che-samples/c-simple-console.git",
-      "parameters": {}
-    },
-    "commands": [
-      {
-        "name": "build and run",
-        "type": "custom",
-        "commandLine": "cd ${current.project.path} \ngcc -o Hello Hello.c \n./Hello",
-        "attributes": {
-          "previewUrl": "",
-          "goal": "Run"
-        }
-      }
-    ],
-    "links": [],
-    "category": "Samples",
-    "tags": [
-      "cpp",
-      "gcc"
-    ]
-  },
-  {
     "name": "mobile-android-simple",
     "displayName": "mobile-android-simple",
     "path": "/mobile-android-simple",
